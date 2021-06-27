@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./js/bootstrap.min.js">
+
+</head>
+
+
+<body class="bg-primary">
+
+    <form action="" id="my-form">
+<div class="title" id="cleared">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-3">
+                <div class="card mt-5 ">
+                    <div class="card-body">
+                        <h2 class="card-tittle text-center">
+                            Age calculator
+                        </h2>
+
+                        <div class="row">
+                            <div class="col-md-6 offset-md-3 mt-5">
+                                <div class="form-group">
+                                    <input type="text" id="date-field" class="form-control"
+                                        placeholder="Enter your date">
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 offset-md-3 mt-5">
+                                <div class="form-group">
+                                    <select name="" id="month-field" class="form-control">
+                                        <option value="" selected disabled>Month </option>
+                                        <option value="january">jan</option>
+                                        <option value="Febuary">feb</option>
+                                        <option value="march">mar</option>
+                                        <option value="April">april</option>
+                                        <option value="may">may</option>
+                                        <option value="june">june</option>
+                                        <option value="july">july</option>
+                                        <option value="august">Aug</option>
+                                        <option value="september">sep</option>
+                                        <option value="october">oct</option>
+                                        <option value="november">nov</option>
+                                        <option value="December">dec</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-6 offset-md-3 mt-5">
+                                <div class="form-group">
+                                    <input id="year-field" type="text" class="form-control" placeholder="year">
+                                </div>
+                            </div>
+
+
+                            <button type="button" class="btn btn-outline-primary mt-5"
+                                onclick="calculate()">calculate</button>
+                     
+
+                            <div class="row text-center justify-content-center mt-5">
+                                <div class="col-md-3 mt-1 ms-4 bg-info">
+                                    <h5>Days</h5>
+                                    <p id="output-day"></p>
+                                </div>
+                                <div class="col-md-3 mt-1 ms-4 bg-info">
+                                    <h5>Months</h5>
+                                    <p id="output-month"></p>
+                                </div>
+                                <div class="col-md-3 mt-1 ms-4 bg-info">
+                                    <h5>years</h5>
+                                    <p id="output-year"></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+</div>
+
+    </form>
+    <script src="./app.js"></script>
+</body>
+
+</html>
